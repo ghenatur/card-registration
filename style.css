@@ -1,0 +1,223 @@
+body {
+    background-color: rgba(249, 249, 249, 0.5);
+}
+
+label {
+    color: #8f9090;
+}
+
+#card-number {
+    font-size: 45px;
+    color: #edeaea;
+    font-family: monospace;
+    margin: 0 37px;
+
+}
+
+p {
+    color: #8f9090;
+    font-family: Verdana;
+    margin: 0 40px;
+
+}
+
+#expiration {
+    width: 60px;
+}
+
+#expiration, #name {
+    font-size: 22px;
+    color: rgb(245, 240, 240);
+}
+
+.title {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.app {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    height: 330px;
+    width: 550px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.front, .back {
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+    background: linear-gradient(rgb(122, 21, 21), black);
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.reverse-front {
+    transform: rotateY(180deg)
+}
+
+.reverse-back {
+    transform: rotateY(360deg)
+}
+
+.cip > img {
+    margin: 30px 35px;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    margin-top: 40px;
+}
+
+.card-bottom-expiration {
+    margin-right: 35px;
+}
+
+.expiration-text {
+    margin-left: 4px;
+}
+
+.expiration {
+    display: flex;
+    align-items: center;
+}
+
+.expiration > p {
+    margin: 5px;
+}
+
+.valid {
+    font-size: 10px;
+}
+
+.input {
+    height: 330px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.input-security-expiration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-security-expiration > div {
+    width: 47%;
+}
+
+.valid {
+    font-size: 10px;
+}
+
+/*-------back------------------------------*/
+.magnet {
+    margin-top: 40px;
+    height: 50px;
+    background-color: black;
+}
+
+.security {
+    height: 50px;
+    background-color: #c0c0c0;
+    margin: 30px 30px 10px;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+}
+
+.mark {
+    height: 100%;
+    width: 90%;
+}
+
+.mark-line {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mark {
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    position: absolute;
+    margin: 10px 20px;
+}
+
+.line {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(241, 241, 241, 0.85);
+}
+
+.code {
+    height: 100%;
+    width: 10%;
+    padding: 12px;
+    font-size: 21px;
+    font-family: 'Satisfy', cursive;
+}
+
+.back > p {
+    text-align: end;
+}
+
+.white-line-zone {
+    margin-top: 70px;
+}
+
+.white-line {
+    width: 55%;
+    height: 10px;
+    background-color: #dbdbdb;
+    margin: 10px 40px;
+}
+
+.large {
+    width: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
